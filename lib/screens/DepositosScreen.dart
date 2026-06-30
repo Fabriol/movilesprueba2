@@ -54,7 +54,16 @@ class ListaDepositos extends StatelessWidget {
                     context: context,
                     builder: (context) => AlertDialog(
                       title: const Text("Detalle del Depósito"),
-                      content: Text("Se realizó un depósito en ${item['banco']} por la cantidad de \$${item['monto']}"),
+                      content: Text(
+                        "ID Transacción: ${item['id']}\n"
+                        "Fecha: ${item['fecha']}\n"
+                        "Banco: ${item['banco']}\n"
+                        "Monto: \$${item['monto']}\n\n"
+                        "Remitente: ${item['origen']['nombre']}\n"
+                        "Destinatario: ${item['destino']['nombre']}\n\n"
+                        "Método: ${item['detalles']['método_pago']}\n"
+                        "Estado: ${item['detalles']['estado']}"
+                      ),
                     ),
                   );
                 },
