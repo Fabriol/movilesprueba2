@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1019736398698",
+    "firebase_url": "https://trasferenciab-1ec50-default-rtdb.firebaseio.com",
+    "project_id": "trasferenciab-1ec50",
+    "storage_bucket": "trasferenciab-1ec50.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019736398698:android:7c297094a2f4b7cfcfe313",
+        "android_client_info": {
+          "package_name": "com.example.prueba_02"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMxdOkZUHoeJOi3d5kkCWs15bO5fqYiD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
