@@ -52,7 +52,7 @@ Widget formularioTransferencia(BuildContext context) {
 
 Future<void> guardarTransferencia(context, idTrans, destinatario, monto) async {
   try {
-    await FirebaseDatabase.instance.ref('transferencias').push().set({
+    await FirebaseDatabase.instance.ref('transferencias').child(idTrans.text).set({
       'id': idTrans.text,
       'destinatario': destinatario.text,
       'monto': double.parse(monto.text),
